@@ -1,0 +1,43 @@
+											<!-- OBJETOS -->
+
+
+
+<script>
+	
+
+
+	SINTAXIS
+
+		let Personas = {
+			nombre   : 'Edmidio',
+			apellido : 'Castro'
+		};
+
+
+
+	// Leer un objeto
+		
+		const leer = Personas.nombre;
+		console.log( ' Apellido: ', Personas.apellido );
+
+	// Borrar propiedad (registro) de un objeto
+		
+		delete Personas.apellido;
+
+	// Convertir un objeto en un arreglo
+
+		const ent = Object.entries( Personas );
+
+	// Usando varias variables de un mismo objeto y modificar el valor de la variable #2 sin afectar el valor de la variable #1
+			
+		let var#1 = { nombre: 'Juan' };
+		let var#2 = { ...var#1 };
+
+		var#2.nombre = ' Maria ';
+	
+		OBSERVACION:
+		// Se le agrega ... 3 Puntos al argumento nuevo.
+
+
+
+</script>

@@ -1,0 +1,123 @@
+										<!-- PROMESAS -->
+
+
+
+<script>
+	
+
+
+	// Una PROMESA: Representan si una funcion o alguna accion se cumple o no se cumple.
+
+	SINTAXIS
+
+		return new Promise( ( resolve, reject ) => {
+
+		});
+
+
+	// Ejemplo # 1
+
+		const heroe = heroes[id];
+
+		return new Promise( ( resolve, reject ) => {
+	    	if( heroe ) {
+	        	// resolve( lo que vamos a enviar );
+	        	// resolve: cuando se cumple la promesa
+	        	setTimeout(() => resolve( heroe ), 1000);
+
+	    	} else {
+				// reject( 'no se encontro nada' );
+				// reject : cuando se rechaza la promesa, no se cumple
+	            reject(`No existe un héroe con el id ${ id }`);
+	    	}
+		});
+
+
+		// Esto es lo mismo que arriba...
+
+			export const buscarHeroeAsync = async( id ) => {
+			    
+			    const heroe = heroes[id];
+
+			    if( heroe ) {
+			        return heroe; // resolve
+			    } else {
+			        throw `No existe un héroe con el id ${ id }`; // reject
+			    }
+			}
+
+	
+	OBSERVACION
+	// Al usar async usar el try y el catch por cualquier error inesperado que pueda o no pueda ocurrir
+
+	export const obtenerHeroeAwait = async( id ) => {
+
+	    try {
+
+	        const heroe = await buscarHeroeAsync( id );
+	        return heroe;
+
+	    }catch( err ) {
+	        console.log( 'CATCH!!!' );
+	        return {
+	            nombre: 'Sin nombre',
+	            poder: 'Sin poder'
+	        };
+
+	    }
+	}
+
+	// Ejemplo # 2
+
+		const promesaLenta = new Promise( ( resolve, reject ) => {
+		    setTimeout(() => resolve('Promesa Lenta') , 2000);
+		});
+
+		const promesaMedia = new Promise( ( resolve, reject ) => {
+		    setTimeout(() => resolve('Promesa Media') , 1500);
+		});
+
+		const promesaRapida = new Promise( ( resolve, reject ) => {
+		    setTimeout(() => resolve('Promesa Rápida') , 1000);
+		});
+
+
+	// Llamar una promesa
+
+		funcion( argumento a enviar ).then( heroe => { 
+			.log('Enviado a mision');
+		}); 
+
+	// Para ejecutar la promesa mas rapida
+
+		promise.race( [ promesaLenta, promesaRapida, promesaMedia ] )
+		       .then (console.log);
+
+
+	// PROMESAS EN PARARELO... usar varias promesas o callback a la vez
+
+		Promise.all([ buscarHeroe(heroeid1), buscarHeroe(heroeid2) ])
+		    	.then( ( [ heroe1, heroe2 ] ) => {
+					.log(heroe1, heroe2);		
+		}).catch( err => {
+			alert(err);
+		}).finally( () => {
+			
+		});
+
+		.then -------> cuando ocurre bien todo
+		.catch -------> cuando tenemos un error
+		.finally -----> usado para hacer limpiezas y siempre se ejecuta despues de realizar todo lo anterior
+
+
+	// Await : para hacer peticiones y que espere a que se realice todo y luego ejecute otra accion
+
+		export const obtenerHeroesArr = async() => {
+			return await Promise.all( heroesIds.map( buscarHeroe ) );
+		};
+
+		.map 'me devuelve un nuevo arreglo de los argumentos que le mande'
+
+
+
+</script>

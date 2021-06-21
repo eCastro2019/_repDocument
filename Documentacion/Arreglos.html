@@ -1,0 +1,90 @@
+											<!-- ARREGLOS -->
+
+
+
+<script>
+	
+    FILTER - generar un nuevo arreglo que cumpla la condicion deseada, filtrado de informacion
+
+    const variable = arreglo.filter( ( { campo } ) => campo < 1000  )
+
+	SINTAXIS
+
+		let ejemploArray [
+			true, 'hola', 123
+		];
+			
+		let ejemploArray2 [
+			true, 
+			'hola',
+			123,				
+			ejeSubArr [
+				'que tal',
+				false,
+				2020
+			]
+		];
+
+
+
+	// Leer "llamar" un registro
+	
+		ejemploArray[ numero_posicion ];
+		ejemploArray[ 1 ];
+
+	// Leer "llamar" un registro de un arreglo dentro de otro arreglo
+		
+		ejemploArray2[ posicion_arreglo_1 ][ posicion_arreglo_2 ];
+		ejemploArray2[ 3 ][ 1 ];
+
+	// ultimo registro de un arreglo
+		
+		let ultimo = arregloX[ arregloX.lenght - 1 ];
+
+	// Saber en que posicion se encuentran los registros en un arreglo
+
+		arregloX.indexof( ' metroid ' );
+
+	// Metodo para leer cada elemento de un arreglo y ejecutar una accion por cada elemento
+
+		arregloX.forEach( ( elemento, indice, arr ) => { 
+			console.log ( { elemento, indice, arr } );
+		} );
+
+	//  buscar
+
+		var myArr = [ 'la', 'donna', 'e', 'mobile', 'cual', 'piuma', 'al', 'vento' ];
+ 
+		console.info( myArr.includes( 'donna' ) ); // true
+		console.info( myArr.includes( 'pensiero' ) ); // false
+		
+	// Borrar cualquier registro de un arreglo
+
+		arregloX.splice( posicion, registros_a_borrar );
+		arregloX.splice( 1, 2 );
+
+	// Agregar un registro a un arreglo al final
+
+		arregloX.push( 'Hola' );
+
+	// Agregar un registro a un arreglo al principio
+		
+		arregloX.unshift( 'Hola' );
+
+	// Borrar el ultimo registro de un arreglo
+
+		arregloX.pop( );
+
+	// Usando varias variables de un mismo arreglo y modificar el valor de la variable #2 sin afectar el valor de la variable #1
+			
+		let var#1 = [ 'Mango', 'Pera' ];
+		let var#2 = [ ...var#1 ];
+
+		var#2.push(' Naranja ');
+			
+		OBSERVACION:
+		// Se le agrega ... 3 Puntos al argumento nuevo.
+
+
+
+</script>

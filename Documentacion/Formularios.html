@@ -1,0 +1,132 @@
+											<!-- FORMULARIOS -->
+
+
+
+<script>
+	
+
+
+	// Eventos
+		btnew.addEventListener( 'click', ( ) => {
+		});
+
+	// Clases
+
+		class Persona {
+			var_nombre   = '';
+			var_apellido = '';
+			
+			constructor( nombre = 'vacio', apellido = 'vacio' ) {
+				this.nombre = var_nombre;
+				this.apellido = var_apellido;
+			};
+		};
+		
+		const env = new Persona( 'Edmidio', 'Castro' );
+
+
+	// Get y Set ( primero es el Get para asignar valor y luego el Set para llamarlo o leerlo el valor asignado por el get )
+		
+		get valoresContenidos() {
+    		
+    		const contenidos = [];
+
+    		for(var i=this.valorMinimo; i<=this.valorMaximo; i++) {
+      			contenidos.push(i);
+    		}
+
+    		return contenidos;
+		},	
+
+		set valoresContenidos(arrayValores) {
+
+			contenidos.sort();
+
+			this.valorMinimo = contenidos[0];
+		}
+
+	// Sirve para agregar al final de un arreglo codigo html a un objeto o arreglo en un formulario
+		
+		arreglo.append(div);
+
+	// Enviar informacion a un arreglo u objeto en un formulario
+
+		const vPro = (variable) => {
+			console.log( variable )M
+		};
+
+		const vPro = new variable('Hola Mundo');		
+
+	// Filtrar datos y mandar en un nuevo arreglo el resultado
+
+		listadoPersonas.filter(nombre => nombre.length > 6);
+
+		eliminar = this.todo.filter( todo => todo.id != id ); // Aqui asumimos que lo elimino, pero en realidad solo lo quito de un arreglo y lo paso a un nuevo arreglo
+
+	// Seleccionar un elemento html
+
+		. para class
+		# para id
+
+		const titulo = document.querySelector( '.titulo' );
+
+
+    CREAR UN ELEMENTO HTML EN JAVASCRIPT Y ASIGNAR ALGUNA INFORMACION
+	
+		// Aqui creamos el elemento html 
+
+			const div =  document.createElement('div');
+			const newBoton = document.createElement('button');	
+
+		// Aqui donde lo vamos a ubicar el elemento creado
+
+			divAquiagregar.append( newBoton );
+	
+		// Aqui le asignamos al elemento creado lo que necesitamos ('<h1>hola mundo</h1>')
+
+			div.innerHTML = '<b> Hola Mundo </b>'; // innetHTML para elementos html
+
+			h1.innerText = 'Hola Mundo'; // innerText para texto
+
+		// Agregar una clase a un boton creado con javascript
+
+			newBoton.classList.add( 'nombre_clase' );
+		
+
+	// Saber que tecla fue la que preciono el usuario
+		
+		txtinput.addEventListener('keyup', ( event ) => {
+			// para ver la tecla precionada
+				console.log( event );
+		})
+
+		txtinput.value // Es lo que el usuario escribio en la caja de texto y asi lo seleccionamos.
+	
+		txtinput.keyCode // Es el numero que representa a la tecla que el usuario preciono cuando el cursor esta en la caja de texto. 
+
+		// Tambien se puede agregar mejor el evento directamente click, change, dbclick, etc.
+
+		txtinput.value.legth // saber cuantos caracteres a ingresado el usuario
+
+
+	// Saber a que elemento le dio click el usuario
+
+		.addEventlistener('click', ( event ) => {
+
+		 	const nombreElemento = event.target.localName; // input, button, etc.
+
+			const elemento = event.target.parentElement.parentElement // para seleccionar todo un elemento completo, en los parentElement agregar dependiendo la necesidad		
+
+			// Para seleccionar el valor del id agrega	do en el caso de usar un <li data-id = "002556555"></li>
+			
+			if ( nombreElemento.includes( 'input' )){ // quiere decir que hizo click en un input
+
+				const idsele = elemento.getAttribute('data-id');
+
+			};
+			
+		}
+
+
+
+</script>

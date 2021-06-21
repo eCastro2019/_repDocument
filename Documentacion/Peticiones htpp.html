@@ -1,0 +1,108 @@
+									<!-- PETICIONES HTTP -->
+
+
+
+<script>
+	
+
+
+	// ARCHIVOS .json para hace peticiones a un servidor propio o a cualquier servidor que tenga acceso a peticiones htpp
+
+	EXTRUCTURA
+
+		{
+			" nombre "   : " Edmidio ",
+			" apellido " : " Castro "
+		}
+
+
+
+	const jokeUrl = 'https://api.chucknorris.io/jokes/random';  // hacemos el enlace a la pagina que queremos utilizar
+
+	console.log( jokeUrl); // para ver la informacion que nos trae
+
+	OBSERVACION 
+			// si genera algun mensaje de error y no se puede ver cors
+			// en el navegador buscar chrome cors extension 
+			// añadimos la extencion y precionamos whitelistadd
+
+	// Para llamar un registro, campo o lo  que queramos del archivo .json que nos creara la peticion http con la informacion que solicitamos
+
+		fetch( kokeUrl )
+		.then( resp => resp.json ) // que me lo convierta en .json
+		.then( ( { id, value } ) => { // los campos que necesito traer
+			console.log( id, value );
+		});		
+
+	// Funcion de una peticion http realizada
+		
+		const obtenerChistes = async() => {
+			try {
+
+				const resp = await fetch( jokeUrl );
+
+				if( !resp.ok ) throw 'No se puede realizar peticion';
+
+				const { icon_url, id, value } = await resp.json();
+
+				return {  icon_url, id, value };
+
+			} catch ( err ) {
+
+				throw err; // cuando no se que fue el error generado
+
+			}
+		}
+
+	// Ejecutar una funcion que contenga varios registros de una tabla
+
+		export const init = async() => {
+			(await obtenerUsuarios()).forEach( crearFilaUsuario );
+		};
+
+	// Crear un registro en un .json
+
+		const crearUsuario = async( usuario ) => {
+
+		    const resp = await fetch( urlCRUD, {
+		        method: 'POST',
+		        body: JSON.stringify( usuario ),
+		        headers: {
+		            'Content-Type': 'application/json'
+		        }
+		    });
+
+		    return await resp.json();
+		}
+
+	// Actualizar Registro
+	
+		const actualizarUsuario = async( id, usuario ) => {
+
+		    const resp = await fetch( `${ urlCRUD }/${ id }`, {
+		        method: 'PUT',
+		        body: JSON.stringify( usuario ),
+		        headers: {
+		            'Content-Type': 'application/json'
+		        }
+		    });
+
+		    return await resp.json();
+		}
+
+	// Eliminar registro
+
+		const borrarUsuario = async( id ) => {
+
+		    const resp = await fetch(  `${ urlCRUD }/${ id }`, {
+		        method: 'DELETE'
+		    });
+
+		    return ( resp.ok ) ? 'Borrado' : 'No se pudo eliminar';
+
+		}
+
+
+
+
+</script>
