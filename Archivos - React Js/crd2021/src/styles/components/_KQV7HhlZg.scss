@@ -1,0 +1,292 @@
+body {
+    font-family: "Lato", sans-serif;
+    background-image: url('https://raw.githubusercontent.com/eCastro2019/Fotos-de-Empresa/main/Fondo4_1280x1024_SVlogic.bmp');
+  }
+  
+  .sidenav {
+    height: 100%;
+    position: fixed;
+    background-image: url('https://res.cloudinary.com/df2ahfbvy/image/upload/v1622149600/perfil/xfzj2gswuhgjnh2hxf8w.jpg');
+    color: white;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+ 
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    display: block;
+    color: white;
+  }  
+
+  .text{
+    color: white;
+  }
+  
+  .main {
+    margin-left: 300px; 
+    font-size: 28px; 
+    padding: 0px 10px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  .Pcard{
+    padding-top: 5px;
+  }
+
+
+  @media screen and (min-width: 769px) and (max-width: 3840px) {
+      .pantallaMovil{
+        display: none;
+      }
+  }
+
+@media screen and (min-width: 768px) and (max-width: 3840px) {
+    .sidenav {
+        width: 300px;       
+    }
+    .movil{
+        display: none;
+    }
+    .archi{
+      width: 70%;
+    }
+    .formTam{
+      width: 30rem;
+    }
+    .col-pc{
+      width: 33.3%;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  li.liPc{
+    width: 100vw;
+  }
+  .col-pc{
+      width: 100%;
+  }
+  .pantallaPC{
+    display: none;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .sidenav {
+        width: 100%;       
+    }       
+    .main{
+        display: none;
+    }
+    .computadora{
+      display: none;
+    }
+    .archi{
+      width: 100%;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {   
+  @media only screen and (orientation:portrait) {
+    .formTam{
+      width: 100vw;
+    }
+  }    
+
+  @media only screen and (orientation:landscape) {
+    .formTam{
+      width: 100vw;
+    }
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 568px) {   
+  @media only screen and (orientation:portrait) {
+    .formTam{
+      width: 100vw;
+    }
+  }    
+
+  @media only screen and (orientation:landscape) {
+    .formTam{
+      width: 100vw;
+    }
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 667px) {   
+  @media only screen and (orientation:portrait) {
+    .formTam{
+      width: 100vw;
+    }
+  }    
+
+  @media only screen and (orientation:landscape) {
+    .formTam{
+      width: 100vw;
+    }
+  }
+}
+
+#myInput {
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: #eee;
+}
+
+.input_bus{
+  padding: 2px;
+  border-radius: 50px;
+  margin: 5px 0 5px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  width: 50%;  
+  font-size: 22px;
+  text-align: center;
+}
+
+.inputCR{
+  width: 100%;
+}
+
+.yes{
+  cursor: pointer;
+  color: rgb(6, 212, 6);
+  font-size: 20px;
+}
+
+.no{
+  cursor: pointer;
+  color: rgba(255, 0, 0, 0.726);
+  font-size: 20px;
+}
+
+tbody.tbody_HTzhrv{
+  text-align: center;
+}
+
+#myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myUL li a {
+  border: none;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: white;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: white;
+}
+
+div.scroDoc{
+  height: 472px;
+  overflow-x: hidden;
+  scrollbar-width: none;
+  border: none;
+  width: 20vw;
+}
+
+td.dek22{
+  width: 20vw;
+}
+
+.ul_IaIcAV51{
+  cursor: pointer;
+  text-align: left;
+  width: 20vw;
+}
+
+#myInput {
+  border: none;
+}
+
+.h2_IaI_1{
+  cursor: pointer;
+}
+
+td.td_IaIcAVTabl{
+  text-align: left;
+  cursor: pointer;
+}
+
+div.divTabl_IaIcAV{
+  height: 640px;
+  overflow: auto;
+}
+
+th._nf9qZs_table{
+  cursor: pointer;
+  text-decoration: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; 
+}
+
+h1.h1_VEdDGQ{
+  text-decoration: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; 
+}
+
+// Bloc de notas
+
+div.VEdDGQ_div1{
+  background-color: cadetblue;
+}
+
+td.td_IaIcAV5{
+  background-image: url('https://res.cloudinary.com/df2ahfbvy/image/upload/v1622151632/perfil/jzgo7xdqdqzut0k22dhh.jpg');
+  width: 5vw;
+  color: white;
+  height: 642px;    
+}
+
+th._JhqD29_th{
+  cursor: pointer;  
+}
+
+iframe{
+  background-image: url('https://res.cloudinary.com/df2ahfbvy/image/upload/v1622149600/perfil/xfzj2gswuhgjnh2hxf8w.jpg');
+  background-size: cover;
+}

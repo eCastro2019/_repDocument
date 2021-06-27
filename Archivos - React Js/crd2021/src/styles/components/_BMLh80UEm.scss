@@ -1,0 +1,71 @@
+
+.BMLh80UEm__main {
+    align-items: center;
+    background-image: url('https://raw.githubusercontent.com/eCastro2019/Fotos-de-Empresa/main/Fondo4_1280x1024_SVlogic.bmp');
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    margin: 0px;
+    width: 100vw;
+}
+
+.BMLh80UEm__box-container {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba($dark-grey, 0.25);
+    border-radius: 3px;
+    padding: 20px;
+    width: 320px;
+}
+
+.BMLh80UEm__title {
+    color: darken($color: $primary, $amount: 20);
+    margin-bottom: 20px;
+}
+
+.BMLh80UEm__input {
+    border: 0px;
+    padding: 20px;
+    border-bottom: 1px solid $light-grey;
+    color: $dark-grey;
+    font-size: 18px;
+    height: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+    text-decoration: none;
+
+    transition: border-bottom .3s ease;
+    
+    &:focus {
+        // outline: none;
+        border-bottom: 1px solic $dark-grey;
+    }
+}
+
+.BMLh80UEm__social_networks {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+.BMLh80UEm__alert-error {
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+
+.padre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://raw.githubusercontent.com/eCastro2019/Fotos-de-Empresa/main/Fondo4_1280x1024_SVlogic.bmp');
+    height: 100vh;
+} 

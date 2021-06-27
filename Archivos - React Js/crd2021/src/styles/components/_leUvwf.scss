@@ -1,0 +1,118 @@
+.BXjm1q{
+    width: 100%;
+}
+
+div.BXjm1q_div1{
+    padding-left: 10px;
+}
+
+i.tamFu{
+    font-size: 18px;
+}
+
+div.kke5{
+    cursor: pointer;
+    background-image: url('https://res.cloudinary.com/df2ahfbvy/image/upload/v1622149600/perfil/xfzj2gswuhgjnh2hxf8w.jpg');
+    height: 100%;
+    background-size: cover;
+}
+
+.BXjm1q_2{
+    padding-top: 10px;
+}
+
+input.input_BXjm1q{
+    border: none;
+    text-align: center;
+    font-size: 18px;
+    width: 100%;
+    background-color: transparent;
+    color: white;
+    font-family: Arial;
+}
+  
+div.fondo_movil{
+    background-image: url('https://res.cloudinary.com/df2ahfbvy/image/upload/v1622149600/perfil/xfzj2gswuhgjnh2hxf8w.jpg');
+    color: white;
+    height: 100vh;
+}
+
+div.list{
+    width: 100%;
+}
+
+div.div_LIXrRU{
+    background-image: url('https://res.cloudinary.com/df2ahfbvy/image/upload/v1622149600/perfil/xfzj2gswuhgjnh2hxf8w.jpg');
+    color: white;
+    height: 100vh;
+    width: 100%;
+}
+
+h1.f4de{
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+.btn1{
+    background-color: black;
+    width: 40%;
+    border-radius: 50px;
+}
+
+.btn2{
+    background-color: black;
+    width: 40%;
+    border-radius: 50px;
+}
+
+button.btn1:hover{
+    background-color: black;
+}
+
+button.btn2:hover{
+    background-color: black;
+}
+
+textarea.textarea_valor{
+    resize: none;
+    width: 100%;
+    border: none;
+    background-image: url('https://res.cloudinary.com/df2ahfbvy/image/upload/v1622149600/perfil/xfzj2gswuhgjnh2hxf8w.jpg');
+    color: white;
+    height: 560px;
+    font-size: 16px;    
+}
+
+textarea.textarea_valor2{
+    resize: none;
+    width: 100%;
+    border: none;
+    background-image: url('https://res.cloudinary.com/df2ahfbvy/image/upload/v1622149600/perfil/xfzj2gswuhgjnh2hxf8w.jpg');
+    color: white;
+    height: 640px;
+    font-size: 16px;    
+}
+
+.k_2021{
+    cursor: pointer;
+}
+
+
+@media screen and (min-width: 1920px) and (max-width: 3840px) {   
+  @media only screen and (orientation:portrait) {
+      div.div_ocultar{
+          display: none;          
+      }      
+  }    
+
+  @media only screen and (orientation:landscape) {
+    div.div_ocultar{
+          display: none;
+      }
+  }
+}
+
+div.pie{
+    background-image: url('https://res.cloudinary.com/df2ahfbvy/image/upload/v1622149600/perfil/xfzj2gswuhgjnh2hxf8w.jpg');
+    padding-top: 40px;
+}
