@@ -10,7 +10,8 @@ export const PrivateRoute = ({
     ...rest
 }) => {
     
-    localStorage.setItem('lastPath', rest.location.pathname);
+    localStorage.setItem('lastPath', rest.location.pathname); // para guardar la ruta en que estoy, en rest se encuentra tambien el url de la 
+                                                              // navegacion que tambien se puede usar solo se concatena 
 
     return (
         <Route { ...rest }
