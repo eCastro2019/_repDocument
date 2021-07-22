@@ -1,0 +1,10 @@
+comando para crear proyecto  en la terminal 
+  npx react-native init AwesomeTSProject --template react-native-template-typescript 
+  ( la primera vez puede tardar bastante tener paciencia )
+  
+  
+Emulador Android 
+  npx react-native run-android
+
+Emulador IOS
+  npx react-native run-ios
