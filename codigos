@@ -1,0 +1,29 @@
+Para definir estilos a los componentes, objetos, etiquetas, html
+    const styles = StyleSheet.create({})
+
+Se usa `${}` para el proceso inverso de convertir un Numero a un Caracter
+    setNumero( `${ num1 + num2 }` )
+
+Convertir un numero caracter en numero para poder hacer operaciones matematicas
+    Number( numero ) 
+  
+Saber las propiedades que tiene el navegador solos ( props: any ) se usa { } ya para desestructurar y elegir que propiedad es la que necesitamos
+    ({ navigation }: Props ) => { 
+  
+Es una propiedad del stack.navigation para decirle en un caso que no quiero que inicie en la pagina uno donde estoy agregando 
+este codigo si no en la pagina dos o la que quiera
+    initialRouteName="Pagina2Screen"
+  
+Para navegar entre paginas, le agregamos a la propiedad navigate del componente navigation el name de la pagina establecida en el stack 
+hacia donde queremos navegar
+    onPress={ () => navigation.navigate('Pagina2Screen') }
+    
+Regresa a la pagina anterior pero destruye la pagina de donde regreso, es decir no puede pasar a la pagina 
+de donde regreso si no usa el enlace a esa pagina, a diferencia del return que agrega el componente automatico 
+que ese regresa a la pagina anterior pero no destruye la pagina de donde regreso y con solo desplazar el dedo 
+hacia la izquierda puedo regresar a esa pagina. Este uso va depender de como lo quiero usar si doy acceso a una 
+pagina solo a travez del enlace o una vez cargado la pagina pueda regresar con solo desplazar el dedo
+    navigation.pop()
+    
+Para navegar a la primera pagina de un solo, y destruir todas las paginas detras de el desde donde se ejecuto el boton
+    navigation.popToTop() 
