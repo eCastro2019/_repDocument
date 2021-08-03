@@ -27,3 +27,21 @@ pagina solo a travez del enlace o una vez cargado la pagina pueda regresar con s
     
 Para navegar a la primera pagina de un solo, y destruir todas las paginas detras de el desde donde se ejecuto el boton
     navigation.popToTop() 
+
+Esta opcion se usa para aplicarle un nombre propio al enlace que genera el stack y no usar el name asignado ya que ahi no se puede agregar espacios
+    options={{ title:"Página 1" }}
+    
+Ubicar el menu lateral a la derecha, por default es a la izquierda
+    drawerPosition='right' 
+    
+Se usa para agregar un nuevo elemento al stack, a la par del titulo del stack
+    headerLeft: () => (
+    
+Sirve para abrir el menu lateral
+    toggleDrawer() 
+    
+Propiedad para decirle al menu lateral si esta oculto o quiero que este siempre visible
+    drawerType = { 'front' 'permanent' } 
+    
+Agregar contenido tsx dentro de un menu lateral
+    drawerContent={ (props) => <MenuInterno { ...props } /> } 
