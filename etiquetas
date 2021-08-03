@@ -1,0 +1,14 @@
+Etiqueta utilizada en lugar de <div> Utilizar como padre
+    <View></View>
+
+Etiqueta utilizada en lugar de <h1 - h7>
+    <Text></Text> 
+    
+Este componente detecta el tipo de pantalla que usa el dispositivo y en que posición tiene que mostrar la información, por ejemplo en los IPhone 10 en adelante tiene un borde arriba este componente lo detecta e imprime el texto debajo
+    <SafeAreaView></SafeAreaView>
+    
+Componente para agregar un scroll al menu lateral y poder agregar cualquier contenido hacia abajo
+    <DrawerContentScrollView></DrawerContentScrollView> 
+    
+Agregar imagenes
+    <Image source={{ uri: 'https://medgoldresources.com/wp-content/uploads/2018/02/avatar-placeholder.gif' }} />
