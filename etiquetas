@@ -12,3 +12,8 @@ Componente para agregar un scroll al menu lateral y poder agregar cualquier cont
     
 Agregar imagenes
     <Image source={{ uri: 'https://medgoldresources.com/wp-content/uploads/2018/02/avatar-placeholder.gif' }} />
+
+<StatusBar Se utiliza para modificar la barras de status de cada dispositivo de la parte de arriba
+    backgroundColor="black"
+    barStyle='light-content'
+/>
