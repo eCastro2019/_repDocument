@@ -4,7 +4,7 @@ Pasos para la implementacion del Stack Navigation
 	yarn add @react-navigation/native
 
 2. Instalar otras dependencias React Native Project
-  yarn add react-native-reanimated react-native-gesture-handler react-native-screens react-native-safe-area-context @react-native-community/masked-view
+  	yarn add react-native-reanimated react-native-gesture-handler react-native-screens react-native-safe-area-context @react-native-community/masked-view
   
 3. hacer de nuevo reinstalacion en ios 
 	npx pod-install ios
