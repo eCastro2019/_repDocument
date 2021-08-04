@@ -1,0 +1,54 @@
+Pasos para la implementacion del Stack Navigation
+
+1. Agregar dependencia al proyecto en terminal 
+	yarn add @react-navigation/native
+
+2. Instalar otras dependencias React Native Project
+  yarn add react-native-reanimated react-native-gesture-handler react-native-screens react-native-safe-area-context @react-native-community/masked-view
+  
+3. hacer de nuevo reinstalacion en ios 
+	npx pod-install ios
+  
+4. agregar al codigo en el proyecto en el archivo App el paquete al principio como primer paquete importado
+	import 'react-native-gesture-handler';
+  
+5. luego agregamos al final siempre en el App importamos y agregamos el siguiente componente y encerramos todo el codigo del App dentro de ese componente
+	import { NavigationContainer } from '@react-navigation/native';
+
+	export default function App() {
+	  return (
+	    <NavigationContainer>
+	    	// Aqui todo el codigo
+	    </NavigationContainer>
+	  );
+	}
+  
+6. refrescar Terminal de metro y volver a levantar los respectivos proyectos android y ios 	(Primero IOS)
+	npx react-native run ios 
+	npx react-native run android
+  
+7. Pasar en la documentacion a la parte de Stack Navigation e instalar en Terminal
+	yarn add @react-navigation/stack
+  
+8. emepzar a crear los screen paginas (src/screen) que necesitas y esta es la estructura a usar de la API Definition
+	import { createStackNavigator } from '@react-navigation/stack';
+
+	const Stack = createStackNavigator();
+
+	function MyStack() {
+	  return (
+	    <Stack.Navigator>
+	      <Stack.Screen name="Home" component={Home} />	      
+	      <Stack.Screen name="Settings" component={Settings} />
+	    </Stack.Navigator>
+	  );
+	}
+  
+9. Agregar el MyStack en el componente principal es decir el App	
+	const App = () => {
+	  return (
+	    <NavigationContainer>
+	     	<StackNavigator />
+	    </NavigationContainer>
+	  )
+	}
