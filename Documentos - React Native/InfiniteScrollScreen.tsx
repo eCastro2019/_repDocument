@@ -5,7 +5,7 @@ import { FadeInImage } from '../components/FadeInImage';
 
 export const InfiniteScrollScreen = () => {
 
-    const [numbers, setNumbers] = useState([0,1,2,3,4,5])
+    const [numbers, setNumbers] = useState([0,1,2,3,4,5]) // este es el numero de imagenes que quiero que cargue de un solo
 
     const loadMore = () => {
 
@@ -60,7 +60,9 @@ export const InfiniteScrollScreen = () => {
                 onEndReachedThreshold={ 0.5 }
 
 
-                ListFooterComponent={ () => (
+                ListFooterComponent={ () => ( // al llegar al final del carrusel que aparezca cargando... 
+                                              // las siguientes imagenes, aqui tambien se puede controlar si ya no hay ninguna imagen que mostrar que accion 
+                                              // o que informacion quiero que muestre
                     <View style={{
                         height: 150,
                         width: '100%',
