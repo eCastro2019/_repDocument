@@ -1,49 +1,32 @@
-import { LazyExoticComponent } from 'react'; // Importamos
+import { LazyExoticComponent } from 'react';
 import { lazy } from 'react'
 
-type JSXComponent = () => JSX.Element; // Definimos
+import { NoLazy } from '../01-lazyload/pages/NoLazy';
+
+type JSXComponent = () => JSX.Element;
 
 interface Route {
     path: string;
-    component: LazyExoticComponent<JSXComponent> | JSXComponent, // Tipado
+    component: LazyExoticComponent<JSXComponent> | JSXComponent,
     name: string;
     children?: Route[]
 }
 
-// Definimos los componentes a renderizar primero que queremos que carguen en un principio
 
-const LazyPage1 = lazy( () => import(/* webpackChunkName: "LazyPage1" */'../01-lazyload/pages/LazyPage1') );
-const LazyPage2 = lazy( () => import(/* webpackChunkName: "LazyPage2" */'../01-lazyload/pages/LazyPage2') );
-const LazyPage3 = lazy( () => import(/* webpackChunkName: "LazyPage3" */'../01-lazyload/pages/LazyPage3') );
-
-// Especificamos en las rutas el nombre del componente creado mediante lazy
+// Carga por modulos
 
 export const routes: Route[] = [
+    // Carga de forma peresoza, este modulo se carga solo cuando entro a este modulo mediante la ruta
     {
-        path: '/lazy1',
-        component: LazyPage1,
-        name: 'LazyPage-1'
+        path: '/lazyload',
+        component: lazy( () => import(/* webpackChunkName: "LazyLayout" */ '../01-lazyload/layout/LazyLayout') ),
+        name: 'LazyLoading Nested'
     },
+    // Carga de forma tradicional, este modulo se carga completo cuando inicio la aplicacion
     {
-        path: '/lazy2',
-        component: LazyPage2,
-        name: 'LazyPage-2'
-    },
-    {
-        path: '/lazy3',
-        component: LazyPage3,
-        name: 'LazyPage-3'
-    },
+        path: '/no-lazy',
+        component: NoLazy,
+        name: 'No Lazy loading'
+    }
+   
 ]
-
-
-
-// Componente a renderizar lo pasamos a default es decir las pages en donde este definido el componente
-// export default LazyPage1;
-
-// Luego envolvemos todo el router / rutas de navegacion en el componente suspense para decirle al usuario, espera estoy cargando la pagina
-    // import { Suspense } from 'react';
-
-    // <Suspense fallback={ <span>Loading...</span> }>
-        // <Router></Router>
-    // </Suspense>
