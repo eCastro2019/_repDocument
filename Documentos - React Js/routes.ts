@@ -18,7 +18,7 @@ interface Route {
 export const routes: Route[] = [
     // Carga de forma peresoza, este modulo se carga solo cuando entro a este modulo mediante la ruta
     {
-        path: '/lazyload',
+        path: '/lazyload/*', // Para que la ruta de navegacion en el navegador de las nuevas rutas inicien /lazyload/nuevaruta/
         component: lazy( () => import(/* webpackChunkName: "LazyLayout" */ '../01-lazyload/layout/LazyLayout') ),
         name: 'LazyLoading Nested'
     },
