@@ -1,0 +1,5 @@
+¿En qué ciudad se conocieron sus padres?,
+¿Cuál es el segundo apellido de su padre?,
+¿Cuál es el segundo apellido del mayor de sus hermanos?,
+¿Cuál fue su primer trabajo?,
+¿Cuál es la persona más famosa que ha conocido,
