@@ -1,0 +1,84 @@
+{
+    "dataEspecialidades": [
+		{
+			"id": 1,
+			"value": "Medicina General",
+			"status": false
+		},
+		{
+			"id": 2,
+			"value": "Medicina Interna",
+			"status": false
+		},	
+		{
+			"id": 3,
+			"value": "Ginecología y Obstetricia",
+			"status": false
+		},	
+		{
+			"id": 4,
+			"value": "Pediatría",
+			"status": false
+		},	
+		{
+			"id": 5,
+			"value": "Gastroenterología",
+			"status": false
+		},	
+		{
+			"id": 6,
+			"value": "Cardiólogia",
+			"status": false
+		},
+		{
+			"id": 7,
+			"value": "Otorrinolaringología",
+			"status": false
+		},
+		{
+			"id": 8,
+			"value": "Urología",
+			"status": false
+		},
+		{
+			"id": 9,
+			"value": "Nutricionista",
+			"status": false
+		},
+		{
+			"id": 10,
+			"value": "Neurología",
+			"status": false
+		},
+		{
+			"id": 11,
+			"value": "Oftalmología",
+			"status": false
+		},
+		{
+			"id": 12,
+			"value": "Odontología",
+			"status": false
+		},
+		{
+			"id": 13,
+			"value": "Ortodoncia",
+			"status": false
+		},
+		{
+			"id": 14,
+			"value": "Psicología",
+			"status": false
+		},
+		{
+			"id": 15,
+			"value": "Cirugía General",
+			"status": false
+		},
+		{
+			"id": 16,
+			"value": "Ortopedia",
+			"status": false
+		}
+	]
+}
