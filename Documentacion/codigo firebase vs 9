@@ -1,0 +1,43 @@
+import firebase, { db } from 'path/to/firebase';
+import {collection, getDocs, getDoc, query, doc,  addDoc, deleteDoc, updateDoc} from "firebase/firestore";
+
+// ALTA
+addDoc(collection(db, 'persons'), { name });
+
+// CONSULTA
+const result = await getDocs(query(collection(db, 'persons')));
+
+// REMOVE
+await deleteDoc(doc(db, 'persons', id));
+
+// UPDATE
+await updateDoc(doc(db, 'persons', id), {name})
+
+
+
+// agregar un documento en firebase
+addDoc(collection(db, 'persons'), {
+        name: "Los Angeles",
+        state: "CA",
+        country: "USA"
+    });
+
+
+
+<div className="selectDiv mt-2">
+  <select 
+      onChange={ selectChange }
+      style={{ width: '100%' }}
+  >                                    
+      <option>
+          Listado de Especialidades
+      </option>           
+      {
+          dataEspecialidades.map(esp =>                         
+              <option key={esp} value={esp}>
+                  { esp }
+              </option>
+          )
+      }
+  </select>
+</div>
