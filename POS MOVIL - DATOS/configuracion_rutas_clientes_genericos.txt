@@ -1,0 +1,1 @@
+[{"id":"00","descripcio":"DP - CONSUMIDOR FINAL","codigo":"0100000"},{"id":"01","codigo":"0100018","descripcio":"R1 - CONSUMIDOR FINAL"},{"id":"02","codigo":"0100032","descripcio":"R2 - CONSUMIDOR FINAL"},{"id":"03","descripcio":"R3 - CONSUMIDOR FINAL","codigo":"0100040"}]
