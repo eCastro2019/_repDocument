@@ -1,0 +1,78 @@
+{
+   "config": [
+		{
+			"app": "nnsc-b9abf.web.app",
+			"logo": "https://res.cloudinary.com/df2ahfbvy/image/upload/v1648661698/ymwrsokzp3vfzai3h0bg.jpg",
+			"name": "Conexiones Remotas",
+			"isAuth": true,
+			"collections": [
+				"@UbNhkT", 
+				"@csv2021_01", 
+				"@csv2021_02", 
+				"@csv2021_04", 
+				"@csv2021_05", 
+				"RapwtG", 
+				"THgDam", 
+				"Vv1mUK", 
+				"XyoH48", 
+				"e4ehg3", 
+				"qr2vAH", 
+				"s2021_01"
+			],
+			"nameBackup": "SV-Conexiones",
+			"userAuth": "backup@svconexiones.com",
+			"passAuth": "back2023@SVConexiones"
+		},
+		{
+			"app": "control-combustible.web.app",
+			"logo": "https://res.cloudinary.com/df2ahfbvy/image/upload/v1678204053/fyf7tnxzporjc4xon4fm.jpg",
+			"name": "Control de Combustible",
+			"isAuth": false,
+			"collections": [
+				"combustible_conductor",
+				"combustible_correlativo",
+				"combustible_idCorrelativo",
+				"combustible_motivo",
+				"combustible_ordenDeCompra",
+				"combustible_precios",
+				"combustible_proveedor",
+				"combustible_user",
+				"combustible_vehiculo"
+			],
+			"nameBackup": "SV-Combustible",
+			"userAuth": "",
+			"passAuth": ""
+		},
+		{
+			"app": "sv-compras.web.app",
+			"logo": "https://res.cloudinary.com/df2ahfbvy/image/upload/v1678204053/fyf7tnxzporjc4xon4fm.jpg",
+			"name": "Control de Compras",
+			"isAuth": false,
+			"collections": [
+				"hgst-compras",
+				"hgst_depositos",
+				"hgst_objetos",
+				"hgst_pagos_proveedor",
+				"hgst_parciales",
+				"hgst_proveedores"				
+			],
+			"nameBackup": "SV-Combustible",
+			"userAuth": "",
+			"passAuth": ""
+		},
+		{
+			"app": "svexpedientes.web.app",
+			"logo": "https://res.cloudinary.com/df2ahfbvy/image/upload/v1680454097/nof8md3j3hixjmoyvb4i.jpg",
+			"name": "Control de Expedientes",
+			"isAuth": false,
+			"collections": [
+				"Kg3WVTeDERnTpEz",
+				"historial",
+				"pacientes"			
+			],
+			"nameBackup": "SV-Expedientes",
+			"userAuth": "",
+			"passAuth": ""
+		}
+   ]
+}
