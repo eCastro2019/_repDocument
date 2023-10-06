@@ -1,6 +1,22 @@
 {
    "config": [
 		{
+			"app": "svexpedientes.web.app",
+			"logo": "https://res.cloudinary.com/df2ahfbvy/image/upload/v1648661698/ymwrsokzp3vfzai3h0bg.jpg",
+			"name": "Control de Gastos",
+			"isAuth": false,
+			"collections": [
+				"SVGastos_enlaces",
+				"SVGastos_partidas",
+				"SVGastos_catalogo",
+				"SVGastos_favoritos"
+			],
+			"nameBackup": "SV-Gastos",
+			"userAuth": "",
+			"passAuth": "",
+			"sociedad": "EDMIDIO CASTRO"
+		},
+		{
 			"app": "nnsc-b9abf.web.app",
 			"logo": "https://res.cloudinary.com/df2ahfbvy/image/upload/v1648661698/ymwrsokzp3vfzai3h0bg.jpg",
 			"name": "Conexiones Remotas",
@@ -21,7 +37,8 @@
 			],
 			"nameBackup": "SV-Conexiones",
 			"userAuth": "backup@svconexiones.com",
-			"passAuth": "back2023@SVConexiones"
+			"passAuth": "back2023@SVConexiones",
+			"sociedad": "SOLUCIONES VIRTUALES"
 		},
 		{
 			"app": "control-combustible.web.app",
@@ -41,7 +58,8 @@
 			],
 			"nameBackup": "SV-Combustible",
 			"userAuth": "",
-			"passAuth": ""
+			"passAuth": "",
+			"sociedad": "HOSPITAL SANTA TERESA"
 		},
 		{
 			"app": "sv-compras.web.app",
@@ -58,7 +76,8 @@
 			],
 			"nameBackup": "SV-Combustible",
 			"userAuth": "",
-			"passAuth": ""
+			"passAuth": "",
+			"sociedad": "HOSPITAL SANTA TERESA"
 		},
 		{
 			"app": "svexpedientes.web.app",
@@ -72,7 +91,8 @@
 			],
 			"nameBackup": "SV-Expedientes",
 			"userAuth": "",
-			"passAuth": ""
+			"passAuth": "",
+			"sociedad": "CLINICA MEDICA INTEGRAL"
 		}
    ]
 }
