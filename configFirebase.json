@@ -2,7 +2,7 @@
    "config": [
 		{
 			"app": "svexpedientes.web.app",
-			"logo": "https://res.cloudinary.com/df2ahfbvy/image/upload/v1696637049/perfil/tz1qecibhnixsfwbuqqt.png",
+			"logo": "expediente",
 			"name": "Control de Gastos",
 			"isAuth": false,
 			"collections": [
@@ -18,7 +18,7 @@
 		},
 		{
 			"app": "nnsc-b9abf.web.app",
-			"logo": "https://res.cloudinary.com/df2ahfbvy/image/upload/v1696637059/perfil/wf0ztw4zswgk2fkapoij.png",
+			"logo": "conexiones",
 			"name": "Conexiones Remotas",
 			"isAuth": true,
 			"collections": [
@@ -42,7 +42,7 @@
 		},
 		{
 			"app": "control-combustible.web.app",
-			"logo": "https://res.cloudinary.com/df2ahfbvy/image/upload/v1696637055/perfil/xcarxwbiw1b1aj6neqsf.png",
+			"logo": "combustible",
 			"name": "Control de Combustible",
 			"isAuth": false,
 			"collections": [
@@ -63,7 +63,7 @@
 		},
 		{
 			"app": "sv-compras.web.app",
-			"logo": "https://res.cloudinary.com/df2ahfbvy/image/upload/v1696637059/perfil/mvu7azsdp6lltlznp8rd.png",
+			"logo": "compras",
 			"name": "Control de Compras",
 			"isAuth": false,
 			"collections": [
@@ -81,7 +81,7 @@
 		},
 		{
 			"app": "svexpedientes.web.app",
-			"logo": "https://res.cloudinary.com/df2ahfbvy/image/upload/v1696637049/perfil/qf4skyzsqwe740vrsrww.png",
+			"logo": "expedientes",
 			"name": "Control de Expedientes",
 			"isAuth": false,
 			"collections": [
