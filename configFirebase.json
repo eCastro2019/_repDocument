@@ -1,8 +1,8 @@
 {
    "config": [
 		{
-			"app": "svexpedientes.web.app",
-			"logo": "expediente",
+			"app": "sv-gastos.web.app/",
+			"logo": "gastos",
 			"name": "Control de Gastos",
 			"isAuth": false,
 			"collections": [
