@@ -17,30 +17,6 @@
 			"sociedad": "EDMIDIO CASTRO"
 		},
 		{
-			"app": "nnsc-b9abf.web.app",
-			"logo": "conexiones",
-			"name": "Conexiones Remotas",
-			"isAuth": true,
-			"collections": [
-				"@UbNhkT", 
-				"@csv2021_01", 
-				"@csv2021_02", 
-				"@csv2021_04", 
-				"@csv2021_05", 
-				"RapwtG", 
-				"THgDam", 
-				"Vv1mUK", 
-				"XyoH48", 
-				"e4ehg3", 
-				"qr2vAH", 
-				"s2021_01"
-			],
-			"nameBackup": "SV-Conexiones",
-			"userAuth": "backup@svconexiones.com",
-			"passAuth": "back2023@SVConexiones",
-			"sociedad": "SOLUCIONES VIRTUALES"
-		},
-		{
 			"app": "control-combustible.web.app",
 			"logo": "combustible",
 			"name": "Control de Combustible",
