@@ -1,74 +1,8 @@
 {
    "config": [
-		{
-			"app": "sv-gastos.web.app/",
-			"logo": "gastos",
-			"name": "Control de Gastos",
-			"isAuth": false,
-			"collections": [
-				"SVGastos_enlaces",
-				"SVGastos_partidas",
-				"SVGastos_catalogo",
-				"SVGastos_favoritos"
-			],
-			"nameBackup": "SV-Gastos",
-			"userAuth": "",
-			"passAuth": "",
-			"sociedad": "EDMIDIO CASTRO"
-		},
-		{
-			"app": "control-combustible.web.app",
-			"logo": "combustible",
-			"name": "Control de Combustible",
-			"isAuth": false,
-			"collections": [
-				"combustible_conductor",
-				"combustible_correlativo",
-				"combustible_idCorrelativo",
-				"combustible_motivo",
-				"combustible_ordenDeCompra",
-				"combustible_precios",
-				"combustible_proveedor",
-				"combustible_user",
-				"combustible_vehiculo"
-			],
-			"nameBackup": "SV-Combustible",
-			"userAuth": "",
-			"passAuth": "",
-			"sociedad": "HOSPITAL SANTA TERESA"
-		},
-		{
-			"app": "sv-compras.web.app",
-			"logo": "compras",
-			"name": "Control de Compras",
-			"isAuth": false,
-			"collections": [
-				"hgst-compras",
-				"hgst_depositos",
-				"hgst_objetos",
-				"hgst_pagos_proveedor",
-				"hgst_parciales",
-				"hgst_proveedores"				
-			],
-			"nameBackup": "SV-Compras",
-			"userAuth": "",
-			"passAuth": "",
-			"sociedad": "HOSPITAL SANTA TERESA"
-		},
-		{
-			"app": "svexpedientes.web.app",
-			"logo": "expedientes",
-			"name": "Control de Expedientes",
-			"isAuth": false,
-			"collections": [
-				"Kg3WVTeDERnTpEz",
-				"historial",
-				"pacientes"			
-			],
-			"nameBackup": "SV-Expedientes",
-			"userAuth": "",
-			"passAuth": "",
-			"sociedad": "CLINICA MEDICA INTEGRAL"
-		}
+	{
+		"co01": "01",
+		"des01": "CORRECCIÓN DE DATOS"
+	},
    ]
 }
