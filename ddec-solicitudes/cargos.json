@@ -1,0 +1,44 @@
+{
+	"data": [		
+		{
+			"co02": "01",
+			"des02": "DIRECTOR (A)"
+		},
+		{
+			"co02": "02",
+			"des02": "SUB-DIRECTOR (A)"
+		},
+		{
+			"co02": "03",
+			"des02": "SECRETARIO (A)"
+		},
+		{
+			"co02": "04",
+			"des02": "MAESTRO AUXILIAR"
+		},
+		{
+			"co02": "05",
+			"des02": "CONSEJERO DE ESTUDIANTE"
+		},
+		{
+			"co02": "06",
+			"des02": "ORIENTADOR"
+		},
+		{
+			"co02": "07",
+			"des02": "JEFE DE TALLER"
+		},
+		{
+			"co02": "08",
+			"des02": "ASISTENTE DE TALLER"
+		},
+		{
+			"co02": "09",
+			"des02": "JEFE DE LABORATORIO"
+		},
+		{
+			"co02": "10",
+			"des02": "ASISTENTE DE LABORATORIO"
+		},
+	]
+}

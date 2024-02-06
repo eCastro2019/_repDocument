@@ -1,0 +1,72 @@
+{
+	"data": [		
+		{
+			"co01": "01",
+			"des01": "CORRECCIÓN DE DATOS"
+		},		
+		{
+			"co01": "02",
+			"des01": "USURPACIÓN DE IDENTIDAD"
+		},
+		{
+			"co01": "03",
+			"des01": "MATRICULA SIN RESTRICCIÓN"
+		},
+		{
+			"co01": "04",
+			"des01": "CREACIÓN DE USUARIO COMO ADMINISTRADOR"
+		},
+		{
+			"co01": "05",
+			"des01": "RECUPERACIÓN DE USUARIO COMO ADMINISTRADOR"
+		},
+		{
+			"co01": "06",
+			"des01": "CREACIÓN DE USUARIO COMO DOCENTE"
+		},
+		{
+			"co01": "07",
+			"des01": "RECUPERACIÓN DE USUARIO COMO DOCENTE"
+		},
+		{
+			"co01": "08",
+			"des01": "REGISTRO DE ALUMNO"
+		},
+		{
+			"co01": "09",
+			"des01": "ACTUALIZACIÓN DE DOCENTE SIARDH"
+		},
+		{
+			"co01": "10",
+			"des01": "ENTREGA DE REPORTE DE MATRICULA"
+		},
+		{
+			"co01": "11",
+			"des01": "CREACIÓN DE CODIGO DE CENTRO"
+		},
+		{
+			"co01": "12",
+			"des01": "REVERSIÓN DE PERIODO"
+		},
+		{
+			"co01": "13",
+			"des01": "TRASLADO DE ALUMNO"
+		},
+		{
+			"co01": "14",
+			"des01": "REPORTES ESTADISTICOS PARA DEPENDENCIAS (DDE, DM, ONG)"
+		},
+		{
+			"co01": "15",
+			"des01": "CERTIFICADO DE ESTUDIO"
+		},
+		{
+			"co01": "16",
+			"des01": "CERTIFICACIÓN DE ESTUDIO"
+		},
+		{
+			"co01": "17",
+			"des01": "PARTIDA DE NACIMIENTO"
+		},
+	]
+}

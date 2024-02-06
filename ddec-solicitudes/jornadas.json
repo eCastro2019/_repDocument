@@ -1,0 +1,24 @@
+{
+	"data": [		
+		{
+			"co03": "01",
+			"des03": "MATUTINA"
+		},
+		{
+			"co03": "02",
+			"des03": "VESPERTINA"
+		},
+		{
+			"co03": "03",
+			"des03": "NOCTURNA"
+		},
+		{
+			"co03": "04",
+			"des03": "MIXTA"
+		},
+		{
+			"co03": "05",
+			"des03": "DOBLE"
+		},
+	]
+}
