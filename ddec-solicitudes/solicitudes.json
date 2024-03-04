@@ -67,6 +67,10 @@
 	{
 		"co01": "17",
 		"des01": "PARTIDA DE NACIMIENTO"
+	},
+	{
+		"co01": "18",
+		"des01": "SOPORTE TECNICO"
 	}
    ]
 }
