@@ -71,6 +71,10 @@
 	{
 		"co01": "18",
 		"des01": "SOPORTE TECNICO"
+	},
+	{
+		"co01": "19",
+		"des01": "CREACIÓN DE USUARIO DIRECTOR MUNICIPAL"
 	}
    ]
 }
