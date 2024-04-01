@@ -3,8 +3,8 @@
         { "nivel4": "RECARGA DE TARJETA DE EXPRESSO AMERICANO", "nameTaget": "Tarjeta Expresso", "icono": "expreso" },
         { "nivel4": "PAGO DE SERVICIOS DE STREAMING", "nameTaget": "Streaming", "icono": "streaming" },
         { "nivel4": "RETIRO EN CAJERO / BANCO", "nameTaget": "Retiro", "icono": "retiro" },
-        { "nivel4": "COMISIONES Y SEGUROS DE TARJETA DE CREDITO", "nameTaget": "Comisiones Seguros", "icono": "comision"},
-        { "nivel4": "COMPRAS DE NAVIDAD", "nameTaget": "Compras Navideñas", "icono":"navidad" },
+        { "nivel4": "COMISIONES Y SEGUROS DE TARJETA DE CREDITO", "nameTaget": "Comisiones", "icono": "comision"},
+        { "nivel4": "COMPRAS DE NAVIDAD", "nameTaget": "Compra Navidad", "icono":"navidad" },
         { "nivel4": "AHORRO PARA GASTOS PERSONALES", "nameTaget": "Ahorro Personal", "icono":"personal" },
         { "nivel4": "INTERÉS A FAVOR", "nameTaget": "Interes Favor", "icono":"interes" },
         { "nivel4": "DEPÓSITO", "nameTaget": "Depósito", "icono":"deposito" },
@@ -24,7 +24,7 @@
         { "nivel4": "COMPRA DE MEDICAMENTOS EN FARMACIA", "nameTaget": "Farmacia", "icono": "farmacia" },
         { "nivel4": "TRANSFERENCIA", "nameTaget": "Transferencia", "icono":"transfer" },
         { "nivel4": "PAGO DEL TRABAJO - SALARIO", "nameTaget": "Salario", "icono":"sueldo" },
-        { "nivel4": "GASTOS HOSPITALARIOS", "nameTaget": "Gastos Hospitalarios", "icono":"hospital" },
+        { "nivel4": "GASTOS HOSPITALARIOS", "nameTaget": "Gastos Hospital", "icono":"hospital" },
         { "nivel4": "AHORRO PARA GASTOS DE EMERGENCIA Y SALUD", "nameTaget": "Ahorro Emergencia", "icono":"emergencia" },
         { "nivel4": "OTROS GASTOS", "nameTaget": "Otros Gastos", "icono":"gastos" },
         { "nivel4": "COMPRA DE INTERNET MOBIL - CLARO", "nameTaget": "Internet - Claro", "icono":"claro" },
@@ -32,7 +32,7 @@
         { "nivel4": "PAGO DE TARJETA DE CREDITO", "nameTaget": "Pago Tarjeta", "icono":"tarjeta" },
         { "nivel4": "REMESAS", "nameTaget": "Remesas", "icono":"remesa" },
         { "nivel4": "CAJA CHICA", "nameTaget": "Caja Chica", "icono":"caja" },
-        { "nivel4": "RETIRO PARA MOVIMIENTO DE EFECTIVO", "nameTaget": "Movimiento Efectivo", "icono":"movimiento" },
+        { "nivel4": "RETIRO PARA MOVIMIENTO DE EFECTIVO", "nameTaget": "Movimiento Dinero", "icono":"movimiento" },
         { "nivel4": "AJUSTE DE CUENTA DE BANCO", "nameTaget": "Ajuste Cuenta", "icono":"ajuste" },
         { "nivel4": "PAGO DE INTERNET - INTESA", "nameTaget": "Internet Intesa", "icono":"intesa" }
     ]
