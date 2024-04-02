@@ -20,6 +20,7 @@
         { "nivel4": "COMPRA DE CAFE", "nameTaget": "Cafe", "icono":"cafe" },
         { "nivel4": "COMPRA DE BEBIDAS", "nameTaget": "Bebida", "icono":"bebida" },
         { "nivel4": "PAGO DE CUOTA - DIUNSA", "nameTaget": "Pago Diunsa", "icono":"diunsa" },
+        { "nivel4": "PAGO POR TRABAJO REALIZADO", "nameTaget": "Pago trabajo", "icono":"trabajos" },
         { "nivel4": "COMPRA EN STARMARK / SUPERMERCADO", "nameTaget": "Starmark Super", "icono":"supermar" },
         { "nivel4": "COMPRA DE MEDICAMENTOS EN FARMACIA", "nameTaget": "Farmacia", "icono": "farmacia" },
         { "nivel4": "TRANSFERENCIA", "nameTaget": "Transferencia", "icono":"transfer" },
