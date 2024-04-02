@@ -2,12 +2,12 @@
     "data": [
         { "nivel4": "RECARGA DE TARJETA DE EXPRESSO AMERICANO", "nameTaget": "Tarjeta Expresso", "icono": "expreso" },
         { "nivel4": "PAGO DE SERVICIOS DE STREAMING", "nameTaget": "Streaming", "icono": "streaming" },
-        { "nivel4": "RETIRO EN CAJERO / BANCO", "nameTaget": "Retiro", "icono": "retiro" },
         { "nivel4": "COMISIONES Y SEGUROS DE TARJETA DE CREDITO", "nameTaget": "Comisiones", "icono": "comision"},
         { "nivel4": "COMPRAS DE NAVIDAD", "nameTaget": "Compra Navidad", "icono":"navidad" },
         { "nivel4": "AHORRO PARA GASTOS PERSONALES", "nameTaget": "Ahorro Personal", "icono":"personal" },
         { "nivel4": "INTERÉS A FAVOR", "nameTaget": "Interes Favor", "icono":"interes" },
         { "nivel4": "DEPÓSITO", "nameTaget": "Depósito", "icono":"deposito" },
+        { "nivel4": "RETIRO EN CAJERO / BANCO", "nameTaget": "Retiro", "icono": "retiro" },
         { "nivel4": "GASTO DE TRANSPORTE - BUS", "nameTaget": "Bus", "icono":"bus" },
         { "nivel4": "GASTO DE TRANSPORTE - TAXI", "nameTaget": "Taxi", "icono":"taxi" },
         { "nivel4": "GASTO DE TRANSPORTE - MOTO TAXI", "nameTaget": "Moto Taxi", "icono":"mototaxi" },
