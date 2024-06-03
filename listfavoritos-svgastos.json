@@ -37,6 +37,8 @@
         { "nivel4": "CAJA CHICA", "nameTaget": "Caja Chica", "icono":"caja" },
         { "nivel4": "RETIRO PARA MOVIMIENTO DE EFECTIVO", "nameTaget": "Movimiento Dinero", "icono":"movimiento" },
         { "nivel4": "AJUSTE DE CUENTA DE BANCO", "nameTaget": "Ajuste Cuenta", "icono":"ajuste" },
-        { "nivel4": "PAGO DE INTERNET - INTESA", "nameTaget": "Internet Intesa", "icono":"intesa" }
+        { "nivel4": "PAGO DE INTERNET - INTESA", "nameTaget": "Internet Intesa", "icono":"intesa" },
+        { "nivel4": "ROPA", "nameTaget": "Ropa", "icono":"ropa" },
+        { "nivel4": "ZAPATOS", "nameTaget": "Zapatos", "icono":"zapatos" }
     ]
 }
