@@ -1,10 +1,9 @@
 {
     "constancias": [
         {
-            "uid": "qHMG2x9MVOauh5dDaiAQj4zAaLb2",
             "documento": "CONSTANCIA",
             "unidad": "Unidad Departamental de Tecnología Informática",
-            "idinicial": 89,
+            "identificador": "CONST-01-UDTI", 
             "siglas": "UDTI",
             "logodepartamental": "",
             "logoseduc": "",
